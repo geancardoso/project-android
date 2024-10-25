@@ -1,0 +1,161 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+body{
+    background-color: #84e1ad;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: linear-gradient(to bottom, #3bd47f, #2c9d5f, #1a5c38);}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    color: white;
+    border: 0px;
+    padding: 30px;
+}
+header > p {
+    color: rgb(209, 209, 209);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 35px;
+}
+#menu{
+    display:flex;
+    padding: 1rem;
+    gap: 10px;
+    justify-content: center;
+}
+#menu > a{
+    color: #96f5c9;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#menu > a:hover{
+    background-color: #28a660;
+}
+div.fundomain{
+    background-color: #84e1ad;
+}
+main{
+
+}
+
+main > div{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+main > div > h2{
+    padding-top: 30px;
+    padding-left: 30px;
+    text-align: left;
+    font-family: 'Idroid';
+    color: green;
+}
+div#historia{
+    height: 1395px;
+    width: 1200px;
+    margin: auto;
+}
+div#video{
+    margin: 0 0 0 11.1%;
+    background-color: #1a5c38;
+    height: 600px;
+    width: 1201px;
+}
+div#lista{
+    margin: 0 0 0 11.1%;
+    height: 700px;
+    width: 1195px;
+    border: solid;
+    border-color: white;
+    border-radius: 0 0 1% 1%;
+}
+.primeiro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 680;
+    text-indent: 30px; /*Espaçamento do parágrafo*/
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 16px;
+}
+h2.degrade{
+    width: 500px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding-top: 6px;
+    padding-left: 5px;
+    background-image: linear-gradient(to right, #C5EBD5, #DAF2E5, #E8F6EE, #F8FDFB );
+}
+picture#droid{
+    border-top: 30px;
+    margin-left: 200px;
+}
+picture#mulher img{
+    margin: 25px 0 0 17%;
+}
+picture#bugdroid img{
+    margin: 40px 0 0 31%;
+}
+iframe#link{
+    margin: 10% 0 0 22%;
+}
+div#borda{
+    border: solid;
+    border-color: #2fa866;
+    border-radius: 10px 10px 0 0;
+    background-color: #2fa866;
+    margin-left: 50px;
+    width: 1080px;
+    height: 50px;
+}
+p#parte01{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 19px;
+    padding: 1% 0 0 1%;
+}
+div#backlista{
+    background-color: #c5ebd6;
+    margin: 15px 0 0 -3.5px;
+    height: 500px;
+    border: solid;
+    border-color: #c5ebd6;
+    border-radius: 0 0 10px 10px;
+    width: 1080px;
+}
+ul.listagem{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    list-style-type: '\1F5F8\00A0';
+    list-style-position: inside;
+    columns: 2;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+p#pe{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #1a5c38;
+    text-align: center;
+}
